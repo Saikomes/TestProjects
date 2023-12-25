@@ -1,0 +1,26 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.34.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "chart.js": "^4.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mailparser": "^3.6.5",
+    "moment-timezone": "^0.5.43",
+    "monocart-reporter": "^1.7.1",
+    "mssql": "^9.1.1",
+    "node-pop3": "^0.9.0",
+    "pg": "^8.11.0",
+    "smtp-server": "^3.12.0"
+  }
+}

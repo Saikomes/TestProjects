@@ -1,0 +1,300 @@
+{
+    "Operator": [
+        {
+            "menuName": "ГИС",
+            "pageTitle": "ГИС",
+            "href": "/GisAdmin/Index",
+            "subMenu": []
+        },
+        {
+            "menuName": "Учетные данные",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Анализ учетных данных",
+                    "pageTitle": "Анализ учетных данных",
+                    "href": "/AccountingData/ShowData"
+                },
+                {
+                    "subMenuName": "Детализация потребления",
+                    "pageTitle": "Детализация потребления",
+                    "href": "/CustomerConsumptionDetails"
+                },
+                {
+                    "subMenuName": "Фиксация показаний",
+                    "pageTitle": "Фиксация показаний",
+                    "href": "/MeterDataLock"
+                },
+                {
+                    "subMenuName": "Прием показаний",
+                    "pageTitle": "Прием показаний",
+                    "href": "/MeterDataEntryRequest"
+                },
+                {
+                    "subMenuName": "Ввод показаний",
+                    "pageTitle": "Ввод показаний",
+                    "href": "/MeterDataEntry"
+                }
+            ]
+        },
+        {
+            "menuName": "События системы",
+            "pageTitle": "События системы",
+            "href": "/Protocol",
+            "subMenu": []
+        },
+        {
+            "menuName": "Журналы событий",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Журналы ПУ",
+                    "pageTitle": "Журналы событий",
+                    "href": "/AccountingData/ShowEvents?_tab=Node"
+                },
+                {
+                    "subMenuName": "Журналы УСПД",
+                    "pageTitle": "Журналы событий",
+                    "href": "/AccountingData/ShowEvents?_tab=Uspd"
+                }
+            ]
+        },
+        {
+            "menuName": "Контроль отклонений",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Контроль выполнения договоров",
+                    "pageTitle": "Контроль выполнения договоров",
+                    "href": "/AccountingData/ContractsConsumptionControl"
+                },
+                {
+                    "subMenuName": "Отклонения факта от плана",
+                    "pageTitle": "Отклонения факта от плана",
+                    "href": "/AccountingData/GeneralConsumptionControl"
+                }
+            ]
+        },
+        {
+            "menuName": "Объекты учета",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Объекты и точки учета",
+                    "pageTitle": "Объекты и точки учета",
+                    "href": "/AccountingTree"
+                },
+                {
+                    "subMenuName": "Измерительные комплексы",
+                    "pageTitle": "Измерительные комплексы",
+                    "href": "/DeviceRegistry/ShowDeviceRegistry"
+                },
+                {
+                    "subMenuName": "Групповое редактирование свойств",
+                    "pageTitle": "Групповое редактирование свойств",
+                    "href": "/MassAttributeAssignment"
+                },
+                {
+                    "subMenuName": "Связи объектов сети",
+                    "pageTitle": "Связи объектов сети",
+                    "href": "/NetLines"
+                },
+                {
+                    "subMenuName": "Метрологический контроль",
+                    "pageTitle": "Метрологический контроль",
+                    "href": "/Metrology"
+                }
+            ]
+        },
+        {
+            "menuName": "Субъекты рынка",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Субъекты рынка",
+                    "pageTitle": "Субъекты рынка",
+                    "href": "/Customers"
+                },
+                {
+                    "subMenuName": "Договоры",
+                    "pageTitle": "Договоры",
+                    "href": "/Contracts"
+                },
+                {
+                    "subMenuName": "Документы",
+                    "pageTitle": "Документы",
+                    "href": "/Documents"
+                },
+                {
+                    "subMenuName": "Оперативный персонал",
+                    "pageTitle": "Оперативный персонал",
+                    "href": "/ExecutiveUser"
+                }
+            ]
+        },
+        {
+            "menuName": "Состояние системы",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Анализ полноты данных",
+                    "pageTitle": "Анализ полноты данных",
+                    "href": "/DataAnalysis"
+                },
+                {
+                    "subMenuName": "Состояние оборудования",
+                    "pageTitle": "Состояние оборудования",
+                    "href": "/DataAcquisitionLevelMonitoring"
+                },
+                {
+                    "subMenuName": "Контроль достоверности данных",
+                    "pageTitle": "Контроль достоверности данных",
+                    "href": "/DataValidation"
+                }
+            ]
+        },
+        {
+            "menuName": "Отчеты",
+            "pageTitle": "Отчеты",
+            "href": "/ReportList",
+            "subMenu": []
+        },
+        {
+            "menuName": "Справочники",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Группы точек учета",
+                    "pageTitle": "Группы точек учета и расчетные web-схемы",
+                    "href": "/References/NamedQueries"
+                },
+                {
+                    "subMenuName": "Расчетные блоки",
+                    "pageTitle": "Группы точек учета и расчетные web-схемы",
+                    "href": "/References/CalcSchemas"
+                },
+                {
+                    "subMenuName": "Расчетные web-схемы",
+                    "pageTitle": "Группы точек учета и расчетные web-схемы",
+                    "href": "/References/CalcTasks"
+                },
+                {
+                    "subMenuName": "Типы силового оборудования",
+                    "pageTitle": "Типы силового оборудования",
+                    "href": "/PowerTransformersTypes"
+                },
+                {
+                    "subMenuName": "Типы средств измерений",
+                    "pageTitle": "Типы средств измерений",
+                    "href": "/MeasurerTypes"
+                },
+                {
+                    "subMenuName": "Реестр оборудования",
+                    "pageTitle": "Реестр оборудования",
+                    "href": "/DeviceRegistryList"
+                },
+                {
+                    "subMenuName": "Расписания реле",
+                    "pageTitle": "Расписания реле",
+                    "href": "/RelaySchedules"
+                }
+            ]
+        },
+        {
+            "menuName": "Расчеты",
+            "pageTitle": "Расчеты",
+            "subMenu": [],
+            "href": "/ReportList/Balance"
+        },
+        {
+            "menuName": "ПКЭ",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "ИИКЭ",
+                    "pageTitle": "ИИКЭ",
+                    "href": "/UnifiedPowerQuality"
+                },
+                {
+                    "subMenuName": "Прерывания электроснабжения",
+                    "pageTitle": "Прерывания электроснабжения",
+                    "href": "/OutagesList"
+                },
+                {
+                    "subMenuName": "Контроль ПКЭ",
+                    "pageTitle": "Контроль ПКЭ",
+                    "href": "/QualityAnalysisStatistics"
+                },
+                {
+                    "subMenuName": "Мониторинг ПКЭ",
+                    "pageTitle": "Мониторинг ПКЭ",
+                    "href": "/QualityAnalysis/Index"
+                }
+            ]
+        }
+    ],
+    "Admin": [
+        {
+            "menuName": "Учетные записи",
+            "pageTitle": "",
+            "subMenu": [
+                {
+                    "subMenuName": "Учетные записи абонентов",
+                    "pageTitle": "Учетные записи абонентов",
+                    "href": "/ManageCustomerAccounts"
+                },
+                {
+                    "subMenuName": "Группы абонентов",
+                    "pageTitle": "Группы абонентов",
+                    "href": "/ManageGroups/ForCustomers"
+                },
+                {
+                    "subMenuName": "Учетные записи сотрудников",
+                    "pageTitle": "Учетные записи сотрудников",
+                    "href": "/ManageEmployeeAccounts"
+                },
+                {
+                    "subMenuName": "Группы сотрудников",
+                    "pageTitle": "Группы сотрудников",
+                    "href": "/ManageGroups/ForEmployees"
+                }
+            ]
+        },
+        {
+            "menuName": "Служебные задачи",
+            "pageTitle": "Служебные задачи",
+            "href": "/TaskManager",
+            "subMenu": []
+        },
+        {
+            "menuName": "События системы",
+            "pageTitle": "События системы",
+            "href": "/Protocol",
+            "subMenu": []
+        },
+        {
+            "menuName": "Аудит пользователей",
+            "pageTitle": "Аудит пользователей",
+            "href": "/Audit",
+            "subMenu": []
+        },
+        {
+            "menuName": "Управление новостями",
+            "pageTitle": "Управление новостями",
+            "href": "/News",
+            "subMenu": []
+        },
+        {
+            "menuName": "Общесистемные настройки",
+            "pageTitle": "Общесистемные настройки",
+            "href": "/GlobalSettings",
+            "subMenu": []
+        },
+        {
+            "menuName": "Отчеты",
+            "pageTitle": "Отчеты",
+            "href": "/ReportList",
+            "subMenu": []
+        }
+    ]
+}
